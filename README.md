@@ -5,6 +5,7 @@ Minimalist CLI to process folders automatically.
 ## Quick Install
 
 ```bash
+git clone https://github.com/odutradev/digest-code-cli
 chmod +x install.sh
 ./install.sh
 ```
@@ -14,9 +15,9 @@ chmod +x install.sh
 Create a `.env`:
 
 ```env
-BASE_DIR=C:\Users\p0155029\Documents\.projetos
+BASE_DIR=C:\.projetos
 COMMAND=python -m main
-WORKING_DIR=C:\Users\p0155029\Documents\.projetos\digest-code
+WORKING_DIR=C:\.projetos\digest-code
 ```
 
 ## Usage
