@@ -1,0 +1,10 @@
+{
+  "name": "digest-code",
+  "version": "1.0.0",
+  "description": "CLI simples para processar pastas",
+  "main": "cli.js",
+  "bin": {
+    "process-folders": "./cli.js"
+  },
+  "dependencies": {}
+}
