@@ -1,10 +1,52 @@
 {
-  "name": "digest-code",
+  "name": "digest-code-cli",
   "version": "1.0.0",
-  "description": "CLI simples para processar pastas",
+  "description": "Simple CLI to process folders automatically with customizable commands",
   "main": "cli.js",
   "bin": {
-    "process-folders": "./cli.js"
+    "digest-code": "./cli.js"
   },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odutradev/digest-code-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "folder",
+    "processor",
+    "automation",
+    "batch",
+    "directory",
+    "python",
+    "processing",
+    "tool",
+    "command-line"
+  ],
+  "author": {
+    "name": "odutradev",
+    "url": "https://github.com/odutradev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odutradev/digest-code-cli/issues"
+  },
+  "homepage": "https://github.com/odutradev/digest-code-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    ".env.example"
+  ],
+  "preferGlobal": true,
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "dependencies": {}
 }
